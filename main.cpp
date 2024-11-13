@@ -1,22 +1,22 @@
-#include <iostream>
+#include <iostream> //include the input and output library
 
 
-int main() {
-    char type;
-    double basiccharge, callcharge, smscharge, totalcharge, calltime;
-    int sms;
-    std::cout <<"Enter package type (A or B): ";
-    std::cin >> type;
-    if (type != 'A' && type != 'B' || std::cin.fail()){
-        std::cout << "Please enter a valid package type";
-        return 1;
+int main() { //main method
+    char packagetype; //declare char packagetype variable
+    double basiccharge, callcharge, smscharge, totalcharge, calltime; //declare double of basiccharge, smscharge, totalcharge and calltime variable
+    int sms; //declare int sms count variable
+    std::cout <<"Enter package type (A or B): "; //statement to tell user to put package type
+    std::cin >> packagetype; //packagetype input
+    if (packagetype != 'A' && packagetype != 'B'){ //check if user puts other than A and B packagetype
+        std::cout << "Please enter a valid package type"; //display to the user than the input is not valid
+        return 1; //stop the program
     }
 
     std::cout << "Enter call time: ";
     std::cin >> calltime;
     std::cout << "Enter how many sms: ";
     std::cin >> sms;
-    switch (type){
+    switch (packagetype){
         case 'A':
             basiccharge = 100;
             if (calltime < 200)
