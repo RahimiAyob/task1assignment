@@ -1,0 +1,19 @@
+# ninja log v6
+1	137	1731467305955494571	CMakeFiles/task1assignment.dir/main.cpp.o.ddi	6c27bcb6ad24e024
+137	142	1731467306095489146	CMakeFiles/task1assignment.dir/CXX.dd	636b2c397d1831fc
+137	142	1731467306095489146	/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/task1assignment.dir/CXXModules.json	636b2c397d1831fc
+137	142	1731467306095489146	CMakeFiles/task1assignment.dir/main.cpp.o.modmap	636b2c397d1831fc
+2	96	1731467326208067169	CMakeFiles/task1assignment.dir/main.cpp.o.ddi	6c27bcb6ad24e024
+96	100	1731467326301397112	CMakeFiles/task1assignment.dir/CXX.dd	636b2c397d1831fc
+96	100	1731467326301397112	/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/task1assignment.dir/CXXModules.json	636b2c397d1831fc
+96	100	1731467326301397112	CMakeFiles/task1assignment.dir/main.cpp.o.modmap	636b2c397d1831fc
+2	107	1731467369379936786	CMakeFiles/task1assignment.dir/main.cpp.o.ddi	6c27bcb6ad24e024
+108	112	1731467369486600092	CMakeFiles/task1assignment.dir/CXX.dd	636b2c397d1831fc
+108	112	1731467369486600092	/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/task1assignment.dir/CXXModules.json	636b2c397d1831fc
+108	112	1731467369486600092	CMakeFiles/task1assignment.dir/main.cpp.o.modmap	636b2c397d1831fc
+1	106	1731467421611765869	CMakeFiles/task1assignment.dir/main.cpp.o.ddi	6c27bcb6ad24e024
+106	110	1731467421715096497	CMakeFiles/task1assignment.dir/CXX.dd	636b2c397d1831fc
+106	110	1731467421715096497	/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/task1assignment.dir/CXXModules.json	636b2c397d1831fc
+106	110	1731467421715096497	CMakeFiles/task1assignment.dir/main.cpp.o.modmap	636b2c397d1831fc
+110	534	1731467421718429743	CMakeFiles/task1assignment.dir/main.cpp.o	ec929f797cf3af38
+534	613	1731467422145085252	task1assignment	fe7ca2219eb240ad

@@ -1,0 +1,3 @@
+/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/task1assignment.dir
+/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
