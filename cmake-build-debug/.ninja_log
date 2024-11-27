@@ -29,3 +29,15 @@
 93	97	1731555719467711507	CMakeFiles/task1assignment.dir/main.cpp.o.modmap	636b2c397d1831fc
 98	537	1731555719474380339	CMakeFiles/task1assignment.dir/main.cpp.o	ec929f797cf3af38
 537	605	1731555719914523268	task1assignment	fe7ca2219eb240ad
+21	366	1732691964956130283	CMakeFiles/task1assignment.dir/main.cpp.o.ddi	6c27bcb6ad24e024
+366	395	1732691965302796511	CMakeFiles/task1assignment.dir/CXX.dd	636b2c397d1831fc
+366	395	1732691965302796511	/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/task1assignment.dir/CXXModules.json	636b2c397d1831fc
+366	395	1732691965302796511	CMakeFiles/task1assignment.dir/main.cpp.o.modmap	636b2c397d1831fc
+395	1022	1732691965332796473	CMakeFiles/task1assignment.dir/main.cpp.o	ec929f797cf3af38
+1022	1135	1732691965959462347	task1assignment	fe7ca2219eb240ad
+2	139	1732692035479373421	CMakeFiles/task1assignment.dir/main.cpp.o.ddi	6c27bcb6ad24e024
+139	145	1732692035616039911	CMakeFiles/task1assignment.dir/CXX.dd	636b2c397d1831fc
+139	145	1732692035616039911	/home/rahimi/IdeaProjects/task1assignment/cmake-build-debug/CMakeFiles/task1assignment.dir/CXXModules.json	636b2c397d1831fc
+139	145	1732692035616039911	CMakeFiles/task1assignment.dir/main.cpp.o.modmap	636b2c397d1831fc
+145	679	1732692035622706569	CMakeFiles/task1assignment.dir/main.cpp.o	ec929f797cf3af38
+679	757	1732692036156039213	task1assignment	fe7ca2219eb240ad

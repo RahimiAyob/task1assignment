@@ -11,7 +11,7 @@ int main() {
         std::cout << "Please enter a valid package type";
         return 0; //stop the program
     }
-    std::cout << "Enter call time: ";
+    std::cout << "Enter call time(minutes): ";
     std::cin >> calltime;
     std::cout << "Enter how many sms: ";
     std::cin >> sms;
@@ -40,7 +40,7 @@ int main() {
             break;
     }
     totalcharge = basiccharge + callcharge + smscharge;
-    std::cout<< "Basic charges: RM" << basiccharge << std::endl;
+    std::cout<< "\nBasic charges: RM" << basiccharge << std::endl;
     std::cout << "Call charges: RM" << callcharge << std::endl;
     std::cout << "SMS charges: RM" <<smscharge << std::endl;
     std::cout << "Total charge: RM" << totalcharge;
