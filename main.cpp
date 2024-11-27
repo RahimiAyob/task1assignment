@@ -1,17 +1,16 @@
-#include <iostream> //include the input and output library
+//This program is to calculate total charge of telephone company
+#include <iostream> //import input and output library
 
-
-int main() { //main method
-    char packagetype; //declare char packagetype variable
-    double basiccharge, callcharge, smscharge, totalcharge, calltime; //declare double of basiccharge, smscharge, totalcharge and calltime variable
-    int sms; //declare int sms count variable
-    std::cout <<"Enter package type (A or B): "; //statement to tell user to put package type
-    std::cin >> packagetype; //packagetype input
+int main() {
+    char packagetype;
+    double basiccharge, callcharge, smscharge, totalcharge, calltime;
+    int sms;
+    std::cout <<"Enter package type (A or B): ";
+    std::cin >> packagetype;
     if (packagetype != 'A' && packagetype != 'B'){ //check if user puts other than A and B packagetype
-        std::cout << "Please enter a valid package type"; //display to the user than the input is not valid
-        return 1; //stop the program
+        std::cout << "Please enter a valid package type";
+        return 0; //stop the program
     }
-
     std::cout << "Enter call time: ";
     std::cin >> calltime;
     std::cout << "Enter how many sms: ";
@@ -39,14 +38,8 @@ int main() { //main method
             else
                 smscharge = (sms - 20) * 0.15;
             break;
-        case NULL:
-            return 1;
-        default:
-            std::cout << "Please insert a valid package type";
-            return 1;
     }
     totalcharge = basiccharge + callcharge + smscharge;
-    system("clear");
     std::cout<< "Basic charges: RM" << basiccharge << std::endl;
     std::cout << "Call charges: RM" << callcharge << std::endl;
     std::cout << "SMS charges: RM" <<smscharge << std::endl;

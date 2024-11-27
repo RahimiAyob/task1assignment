@@ -43313,21 +43313,21 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 # 4 "/home/rahimi/IdeaProjects/task1assignment/main.cpp"
 int main() {
-    char type;
+    char packagetype;
     double basiccharge, callcharge, smscharge, totalcharge, calltime;
     int sms;
     std::cout <<"Enter package type (A or B): ";
-    std::cin >> type;
-    if (type != 'A' && type != 'B' || std::cin.fail()){
-        std::cout << "Please enter a valid package type";
-        return 1;
+    std::cin >> packagetype;
+    if (packagetype != 'A' && packagetype != 'B'){
+
+        return 0;
     }
 
     std::cout << "Enter call time: ";
     std::cin >> calltime;
     std::cout << "Enter how many sms: ";
     std::cin >> sms;
-    switch (type){
+    switch (packagetype){
         case 'A':
             basiccharge = 100;
             if (calltime < 200)
@@ -43350,15 +43350,6 @@ int main() {
             else
                 smscharge = (sms - 20) * 0.15;
             break;
-        case 
-# 42 "/home/rahimi/IdeaProjects/task1assignment/main.cpp" 3 4
-            __null
-# 42 "/home/rahimi/IdeaProjects/task1assignment/main.cpp"
-                :
-            return 1;
-        default:
-            std::cout << "Please insert a valid package type";
-            return 1;
     }
     totalcharge = basiccharge + callcharge + smscharge;
     system("clear");
