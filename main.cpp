@@ -32,11 +32,11 @@ int main() {
             if (calltime < 250)
                 callcharge = 0;
             else
-                callcharge = (calltime - 200) * 0.1;
-            if (sms < 30)
+                callcharge = (calltime - 250) * 0.1;
+            if (sms < 35)
                 smscharge = 0;
             else
-                smscharge = (sms - 20) * 0.15;
+                smscharge = (sms - 35) * 0.15;
             break;
     }
     totalcharge = basiccharge + callcharge + smscharge;
